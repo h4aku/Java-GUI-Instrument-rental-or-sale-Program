@@ -1,0 +1,5 @@
+# Java-GUI-Instrument-rental-or-sale-Program
+A java program through which you can rent or sell instruments
+
+1. The folder 'Code' contains all the code of the java
+2. Open the SarangiSansar.java using BlueJ/VsCode or any IDE and compile and run.
