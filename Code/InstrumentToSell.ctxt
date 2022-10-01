@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.target=InstrumentToSell
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ InstrumentToSell\ here.\r\n\r\n\ @author\ (Sujal\ Maharjan)\r\n\ @version\ (1.0.0)\r\n
+comment1.params=InstrumentName\ Price
+comment1.target=InstrumentToSell(java.lang.String,\ float)
+comment1.text=\r\n\ InstrumentToSell\ is\ a\ Parameterized\ Constructor.\r\n\ Attributes\ 'InstrumentName'\ and\ 'Price'\ are\ its\ parameters.\r\n\ 'super'\ keyword\ is\ used\ to\ access\ the\ variable\ 'InstrumentName'\ of\ the\ parent\ class.\r\n
+comment10.params=Customer_Name\ Customer_Phone\ Customer_PAN\ Sell_Date\ DiscountPercent
+comment10.target=void\ SellInstrument(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ float)
+comment10.text=\r\n\ SellInstrument\ is\ a\ method\ with\ public\ modifier\ and\ return\ type\ set\ as\ void.\r\n\ It\ contains\ five\ parameters\ (String\ Customer_Name,\ String\ Customer_Phone,int\ Customer_PAN,\r\n\ \ \ \ \ \ \ String\ Sell_Date,\ float\ DiscountPercent).\r\n\ If\ IsSold\ \=\=\ true,\ then\ it\ will\ display\ a\ message\ and\ print\ the\ customer\ details.\r\n\ If\ IsSold\ \=\=\ false,\ then\ it\ will\ set\ new\ values\ of\ Customer\ details,\ sell\ date,\ discount\ percent.\r\n\ It\ also\ calculates\ the\ new\ p\=discounted\ price\ and\ sets\ IsSold\ to\ true.\r\n\ And\ the\ instrument\ is\ sold.\r\n
+comment11.params=
+comment11.target=void\ Display()
+comment11.text=\r\n\ Display\ is\ a\ method\ with\ public\ modifier\ and\ return\ type\ set\ as\ void.\r\n\ 'super'\ keyword\ is\ used\ to\ call\ Display\ method\ of\ parent\ class.\r\n\ Final\ price\ is\ also\ printed.\r\n\ If\ IsRented\ \=\=\ true,\ then\ it\ prints\ Customer\ details\ and\ SellDate.\r\n
+comment2.params=
+comment2.target=float\ getPrice()
+comment3.params=
+comment3.target=java.lang.String\ getSellDate()
+comment4.params=
+comment4.target=float\ getDiscountPercent()
+comment5.params=
+comment5.target=boolean\ getIsSold()
+comment6.params=Price
+comment6.target=void\ setPrice(float)
+comment7.params=SellDate
+comment7.target=void\ setSellDate(java.lang.String)
+comment8.params=DiscountPercent
+comment8.target=void\ setDiscountPercent(float)
+comment9.params=IsSold
+comment9.target=void\ setIsSold(boolean)
+numComments=12

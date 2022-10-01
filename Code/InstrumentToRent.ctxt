@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=InstrumentToRent
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ InstrumentToRent\ here.\r\n\r\n\ @author\ (Sujal\ Maharjan)\r\n\ @version\ (1.0.0)\r\n
+comment1.params=InstrumentName\ ChargePerDay
+comment1.target=InstrumentToRent(java.lang.String,\ int)
+comment1.text=\r\n\ InstrumentToRent\ is\ a\ Parameterized\ Constructor.\r\n\ Attributes\ 'InstrumentName'\ and\ 'ChargePerDay'\ are\ the\ Constructor's\ parameter.\r\n\ 'super'\ keyword\ is\ used\ to\ access\ the\ variable\ 'InstrumentName'\ of\ the\ parent\ class.\r\n\ ChargePerDay\ is\ initialized\ to\ value\ of\ parameter.\r\n\ Attributes\ 'DateOfRent'\ and\ 'DateOfReturn'\ are\ set\ as\ emply\ string.\r\n\ Attribute\ 'NumOfDays'\ is\ initialized\ zero.\r\n\ Attribute\ 'IsRented'\ is\ set\ as\ false.\r\n
+comment10.params=NumOfDays
+comment10.target=void\ setNumOfDays(int)
+comment11.params=IsRented
+comment11.target=void\ setIsRented(boolean)
+comment12.params=newCustomerName\ newCustomerPhone\ newCustomerPAN\ newDateOfRent\ newDateOfReturn\ newNumOfDays
+comment12.target=void\ RentInstrument(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ int)
+comment12.text=\r\n\ RentInstrument\ is\ a\ method\ with\ public\ modifier\ and\ return\ type\ set\ as\ void.\r\n\ It\ contains\ six\ attributes\ (String\ newCustomerName,\ String\ newCustomerPhone,\ \r\n\ \ \ \ \ \ \ int\ newCustomerPAN,\ String\ newDateOfRent,\ String\ newDateOfReturn,\ int\ newNumOfDays)\ as\ its\ parameters.\r\n\ If\ IsRented\ \=\=\ true,\ then\ it\ will\ display\ instrument\ rented\ notice\ and\ print\ customer\ details\ and\ date\ of\ return.\r\n\ If\ IsRented\ \=\=\ false,\ then\ it\ sets\ new\ values\ of\ customer\ details,\ date\ of\ rent\ and\ return\ and\ set\ the\ IsRented\ to\ true.\r\n\ And\ the\ instrument\ is\ rented\r\n
+comment13.params=
+comment13.target=void\ ReturnInstrument()
+comment13.text=\r\n\ ReturnInstrument\ is\ a\ method\ with\ public\ modifier\ and\ return\ type\ set\ as\ void.\r\n\ If\ IsRented\ \=\=\ false,\ then\ it\ prints\ that\ the\ instrument\ is\ already\ returned.\r\n\ If\ IsRented\ \=\=\ false,\ then\ it\ initializes\ the\ values\ of\ CustomerName,\ CustomerPhone,\ DateOfReturn,\r\n\ DateOfRent\ to\ empty\ String,\ sets\ CustomerPAN\ and\ NumOfDays\ to\ 0\ and\ sets\ IsRented\ to\ false.\r\n
+comment14.params=
+comment14.target=void\ Display()
+comment14.text=\r\n\ Display\ is\ a\ method\ with\ public\ modifier\ and\ return\ type\ set\ as\ void.\r\n\ 'super'\ keyword\ is\ used\ to\ call\ Display\ method\ of\ parent\ class.\r\n\ If\ IsRented\ \=\=\ true,\ then\ it\ prints\ Customer\ details,\ Date\ of\ Return\ and\ Date\ of\ rent.\r\n
+comment2.params=
+comment2.target=int\ getChargePerDay()
+comment3.params=
+comment3.target=java.lang.String\ getDateOfRent()
+comment4.params=
+comment4.target=java.lang.String\ getDateOfReturn()
+comment5.params=
+comment5.target=int\ getNumOfDays()
+comment6.params=
+comment6.target=boolean\ getIsRented()
+comment7.params=ChargePerDay
+comment7.target=void\ setChargePerDay(int)
+comment8.params=DateOfRent
+comment8.target=void\ setDateOfRent(java.lang.String)
+comment9.params=DateOfReturn
+comment9.target=void\ setDateOfReturn(java.lang.String)
+numComments=15
