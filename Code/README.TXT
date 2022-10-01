@@ -1,12 +1,11 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
+This program opens a simple GUI through which you can add instruments
+for rent or sell and can rent or sell the added instruments.
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
+PROJECT TITLE: Insrument Rent or sell shop
+PURPOSE OF PROJECT: To add instruments and rent or sell them
 VERSION or DATE:
 HOW TO START THIS PROJECT:
-AUTHORS:
+AUTHORS: Sujal Maharjan
 USER INSTRUCTIONS:
